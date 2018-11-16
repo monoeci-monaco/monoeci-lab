@@ -1,6 +1,6 @@
 ![GitHub Logo](/logo-Monoeci.png)
 
-# monoeci-core Lab
+# Monoeci-core Lab - Now working only on TESTNET MONOECI V2
 
 Monoeci-core Lab Version Beta 0.1
 
