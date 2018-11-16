@@ -6,7 +6,7 @@ webpackJsonp([1], [function(e, t, n) {
                 default: e
             }
         }
-        var a = n(2),Introduction
+        var a = n(2),
             o = r(a),
             i = n(371),
             u = r(i),
@@ -2088,7 +2088,7 @@ webpackJsonp([1], [function(e, t, n) {
                 name: "pathPayment",
                 label: "Path Payment",
                 operationPane: n(536),
-                helpNote: "Sends an amount in a specific asset to a destination account through a path of offers. This allows the asset sent (e.g., 450 XMCC) to be different from the asset received (e.g, 6 BTC).",
+                helpNote: "Sends an amount in a specific asset to a destination account through a path of offers. This allows the asset sent (e.g., 450 XLM) to be different from the asset received (e.g, 6 BTC).",
                 docsUrl: "https://www.monoeci.io/developers/learn/concepts/list-of-operations.html#path-payment"
             }, {
                 name: "manageOffer",
@@ -2124,7 +2124,7 @@ webpackJsonp([1], [function(e, t, n) {
                 name: "accountMerge",
                 label: "Account Merge",
                 operationPane: n(529),
-                helpNote: "Transfers the native balance (the amount of XMCC an account holds) to another account and removes the source account from the ledger.",
+                helpNote: "Transfers the native balance (the amount of XLM an account holds) to another account and removes the source account from the ledger.",
                 docsUrl: "https://www.monoeci.io/developers/learn/concepts/list-of-operations.html#account-merge"
             }, {
                 name: "inflation",
@@ -5639,7 +5639,7 @@ webpackJsonp([1], [function(e, t, n) {
                             className: "so-back AccountCreator__section"
                         }, c.default.createElement("div", {
                             className: "so-chunk"
-                        }, c.default.createElement("h3", null, "1. Keypair generator"), c.default.createElement("p", null, "These keypairs can be used on the Monoeci network where one is required. For example, it can be used as an account master key, account signer, and/or as a monoeci-core node key."), c.default.createElement("button", {
+                        }, c.default.createElement("h3", null, "1. Keypair generator"), c.default.createElement("p", null, "These keypairs can be used on the Monoeci network where one is required. For example, it can be used as an account master key, account signer, and/or as a Monoeci-core node key."), c.default.createElement("button", {
                             className: "s-button",
                             onClick: function() {
                                 n((0, h.generateNewKeypair)())
@@ -5650,7 +5650,7 @@ webpackJsonp([1], [function(e, t, n) {
                             className: "so-back AccountCreator__section"
                         }, c.default.createElement("div", {
                             className: "so-chunk"
-                        }, c.default.createElement("h3", null, "2. Friendbot: Fund a test network account"), c.default.createElement("p", null, "The friendbot is a horizon API endpoint that will fund an account with 10,000 lumens on the test network."), c.default.createElement(p.default, {
+                        }, c.default.createElement("h3", null, "2. Friendbot: Fund a test network account"), c.default.createElement("p", null, "The friendbot is a horizon API endpoint that will fund an account with 10,000 XMCC on the test network."), c.default.createElement(p.default, {
                             className: "picker--spaceBottom",
                             value: t.friendbotTarget,
                             onUpdate: function(e) {
@@ -5662,7 +5662,7 @@ webpackJsonp([1], [function(e, t, n) {
                             onClick: function() {
                                 return n((0, h.startFriendbotRequest)(t.friendbotTarget))
                             }
-                        }, "Get test network lumens"), i, o)))
+                        }, "Get test network XMCC"), i, o)))
                     }
                 }]), t
             }(c.default.Component);
@@ -6573,7 +6573,7 @@ webpackJsonp([1], [function(e, t, n) {
                 className: "Introduction__container"
             }, i.default.createElement("h2", null, "Monoeci Laboratory"), i.default.createElement("p", {
                 className: "Introduction__lead"
-            }, "(TESTNET ONLY NO PUBLIC NETWORKS) The Monoeci Laboratory is a set of tools that enables people to try out and learn about the Monoeci network. The laboratory can ", i.default.createElement("a", {
+            }, "The Monoeci Laboratory is a set of tools that enables people to try out and learn about the Monoeci network. The laboratory can ", i.default.createElement("a", {
                 href: "#txbuilder"
             }, "build transactions"), ", ", i.default.createElement("a", {
                 href: "#txsigner"
@@ -8939,7 +8939,7 @@ webpackJsonp([1], [function(e, t, n) {
                 className: "optionsTable__pair__content__note"
             }, "The ", f.default.createElement("a", {
                 href: "https://www.monoeci.io/developers/learn/concepts/fees.html"
-            }, "network base fee"), " is currently set to 100 stroops (0.00001 lumens). Transaction fee is equal to base fee times number of operations in this transaction.")), f.default.createElement(p.default, {
+            }, "network base fee"), " is currently set to 100 stroops (0.00001 XMCC). Transaction fee is equal to base fee times number of operations in this transaction.")), f.default.createElement(p.default, {
                 optional: !0,
                 label: f.default.createElement("span", null, "Memo ", f.default.createElement(v.default, {
                     href: "https://www.monoeci.io/developers/learn/concepts/transactions.html#memo"
