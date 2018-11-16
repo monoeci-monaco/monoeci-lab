@@ -2544,7 +2544,7 @@ webpackJsonp([1], [function(e, t, n) {
                     type: h,
                     message: "Loading...",
                     status: "loading"
-                }), s.default.get("https://friendbot.monoeci.io/?addr=" + e).then(function(n) {
+                }), s.default.get("https://friendbot.monoeci.io:8000/?addr=" + e).then(function(n) {
                     (0, c.default)(t, {
                         type: v,
                         target: e,
@@ -2555,7 +2555,7 @@ webpackJsonp([1], [function(e, t, n) {
                 }).catch(function(n) {
                     var r = void 0,
                         a = void 0;
-                    0 === n.status ? (r = "", a = "Unable to reach Friendbot server at https://friendbot.monoeci.io") : (r = JSON.stringify(n.data, null, 2), a = "Failed to fund " + e + " on the test network"), (0, c.default)(t, {
+                    0 === n.status ? (r = "", a = "Unable to reach Friendbot server at https://friendbot.monoeci.io:8000") : (r = JSON.stringify(n.data, null, 2), a = "Failed to fund " + e + " on the test network"), (0, c.default)(t, {
                         type: v,
                         target: e,
                         message: a,
